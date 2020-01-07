@@ -1,0 +1,143 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dora</title>
+	<link rel="stylesheet" type="text/css" href="dora.css">
+</head>
+<body>
+
+<div class="parent">
+	
+	<div class="fan"></div>
+	<div class="fan1"></div>
+
+	<div class="face">
+		<div class="eye one">
+			<div class="boll ">
+				<div class="small "></div>
+			</div>
+		</div>
+
+		<div class="eye two">
+			<div class="boll ">
+				<div class="small"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="nose"></div>
+	<div class="line"></div>
+	<div class="line1"></div>
+	<div class="line2"></div>
+	<div class="line3"></div>
+	<div class="line4"></div>
+	<div class="line5"></div>
+
+	<div class="noseline"></div>
+	<div class="muh">
+		<!-- <hr class="hr"> -->
+	</div>
+	
+
+	<div class="neek"></div>
+</div>
+
+<!-- <div class="road">
+	<div class="roadline"></div>
+	<div class="roadline"></div>
+	<div class="roadline"></div>
+</div> -->
+	<!---------------------------------------------------- -->
+	
+	<!-- <div class="background">
+	
+	
+			<div class="c1">
+			<div class="cloud1"></div>
+			<div class="cloud2"></div>
+			<div class="cloud3"></div>
+			</div>
+	
+			<div class="c2">
+			<div class="cloud1"></div>
+			<div class="cloud2"></div>
+			<div class="cloud3"></div>
+			</div>
+	
+			<div class="c3">
+			<div class="cloud1"></div>
+			<div class="cloud2"></div>
+			<div class="cloud3"></div>
+			</div>
+		
+		<br>
+	----------------------------rain----------------------------
+		<div class="div1">
+			<div class="rain1">
+			<div class="rain"></div>
+			</div>
+			<div class="rain2">
+			<div class="rain"></div>
+			</div>	
+			<div class="rain3">
+			<div class="rain"></div>
+			</div>
+			<div class="rain4">
+			<div class="rain"></div>
+			</div>
+		</div>	
+	
+		<div class="div2">
+			<div class="rain1_2">
+			<div class="rain"></div>
+			</div>
+			<div class="rain2_2">
+			<div class="rain"></div>
+			</div>	
+			<div class="rain3_2">
+			<div class="rain"></div>
+			</div>
+			<div class="rain4_2">
+			<div class="rain"></div>
+			</div>
+		</div>	
+	
+		<div class="div3">
+			<div class="rain1_3">
+			<div class="rain"></div>
+			</div>
+			<div class="rain2_3">
+			<div class="rain"></div>
+			</div>	
+			<div class="rain3_3">
+			<div class="rain"></div>
+			</div>
+			<div class="rain4_3">
+			<div class="rain"></div>
+			</div>
+		</div> -->
+
+	<script type="text/javascript">
+		
+	const  eyesball = document.getElementsByClassName('boll');
+       document.onmousemove = function()
+       {
+       	
+    const x = event.clientX * 100 / window.innerWidth + "%";
+    const y = event.clientY * 100 / window.innerHeight + "%";
+        for(i=0;i<2;i++)
+        {
+        eyesball[i].style.left=x;	
+        eyesball[i].style.top=y;	
+        eyesball[i].style.transform="translate(-"+x+",-"+y+")";
+        }
+
+       }  
+
+
+	</script>
+	
+</body>
+</html>
